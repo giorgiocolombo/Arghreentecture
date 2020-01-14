@@ -1,0 +1,31 @@
+header {
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Prata', serif;
+}
+.container_text_header{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    font-size: 5em;
+    border: 2px solid yellow;
+}
+.spazi{
+    position: relative;
+}
+.sostenibili{
+    position: relative;
+    color: white;
+    margin-top: -3.3rem;
+}
+.box_text_header{
+    height: 300px;
+    width: 100px;
+    color: yellow;
+    position: absolute;
+    top: 0;
+}
