@@ -15,8 +15,14 @@
 .topbar *{
     width: 30px;
 }
+.topbar *:hover{
+    opacity: 0.7;
+}
 .logo {
     width: 50px;
+}
+.logo:hover {
+    opacity: 1;
 }
 .longbar{
     width: 35px;
