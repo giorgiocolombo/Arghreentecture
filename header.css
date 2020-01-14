@@ -15,9 +15,6 @@
 .topbar *{
     width: 30px;
 }
-.topbar *:hover{
-    opacity: 0.7;
-}
 .logo {
     width: 50px;
 }
@@ -38,13 +35,43 @@
     margin: 6px 0;
     transition: 0.5s;
 }
-.menu_icon:hover .longbar{
+.longbaractive{
     transition: 0.5s;
-    transform: rotate(-45deg) translate(0px, -2px) ;
+    transform: rotate(-45deg) translate(-8px, 5px) ;
     transform-origin: center;
 }
-.menu_icon:hover .shortbar{
+.shortbaractive{
     width: 35px;
     transition: 0.5s;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) ;
+}
+.menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    z-index: 1;
+    padding: 5rem 3rem;
+    transition: 0.5s;
+}
+.menuactive{
+    left:0;
+    transition: 0.5s;
+}
+.ricerca:hover, .menu_icon:hover .shortbar, .menu_icon:hover .longbar {
+    opacity: 0.7;
+}
+
+.menu_icon {
+    z-index: 99;
+    position: relative;
+}
+
+
+@media(min-width:1000px){
+    .menu{
+        width: 50vw;
+    }
 }
