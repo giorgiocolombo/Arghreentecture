@@ -3,41 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    background-color: #0f8b8d;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    font-size: 16px;
-    font-family: 'Prata', serif;
+.topbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
 }
-.container_text_header{
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 30vh;
-    left: -25vw;
-    font-size: 5em;
-    /* border: 2px solid yellow; */
+.topbar *{
+    width: 30px;
 }
-.spazi{
-    position: relative;
-    margin-left: 2rem;
-}
-.spazi p {
-    position: relative;
-    z-index: 1;
-}
-.sostenibili{
-    position: relative;
-    color: white;
-    margin-top: -3.3rem;
-}
-.box_text_header{
-    height: 80px;
-    width: 180px;
-    background-color:#f47878;
-    position: absolute;
-    bottom: 0;
-    left: 65px;
-    z-index: 0;
+.logo {
+    width: 50px;
 }

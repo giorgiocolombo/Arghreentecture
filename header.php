@@ -10,14 +10,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container_text_header">
-            <div class="spazi">
-                <p>SPAZI</p>
-                <div class="box_text_header"></div>
-            </div>
-            <p class="sostenibili">SOSTENIBILI</p>
+    <header class="topbar">
+        <div class="menu_icon">
+
         </div>
+        <img src="img/logo.svg" alt="Logo" class="logo">
+        <img src="img/ricerca.svg" alt="Cerca" class="ricerca">
     </header>
 </body>
 </html>
