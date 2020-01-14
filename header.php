@@ -12,7 +12,8 @@
 <body>
     <header>
         <div class="container_text_header">
-            <div class="spazi"><p>SPAZI</p>
+            <div class="spazi">
+                <p>SPAZI</p>
                 <div class="box_text_header"></div>
             </div>
             <p class="sostenibili">SOSTENIBILI</p>
