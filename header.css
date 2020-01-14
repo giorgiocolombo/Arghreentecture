@@ -18,3 +18,27 @@
 .logo {
     width: 50px;
 }
+.longbar{
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+.shortbar{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+.menu_icon:hover .longbar{
+    transition: 0.5s;
+    transform: rotate(-45deg) translate(0px, -2px) ;
+    transform-origin: center;
+}
+.menu_icon:hover .shortbar{
+    width: 35px;
+    transition: 0.5s;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}

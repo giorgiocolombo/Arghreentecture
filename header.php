@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="header.css">
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.jpg">
 </head>
 <body>
     <header class="topbar">
         <div class="menu_icon">
-
+            <div class="longbar"></div>
+            <div class="shortbar"></div>
         </div>
         <img src="img/logo.svg" alt="Logo" class="logo">
         <img src="img/ricerca.svg" alt="Cerca" class="ricerca">
