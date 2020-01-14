@@ -84,7 +84,7 @@
         transform: rotate(0deg);
         transform-origin: right;
         margin-bottom: 40vh;
-        margin-left: 6rem;
+        margin-left: 3.5rem;
     }
     .header_home img {
         /* position: absolute; */
@@ -97,6 +97,9 @@
     }
     #bosco2{
         display: block;
+    }
+    .container_text_header{
+        margin-left: 0;
     }
 }
 
