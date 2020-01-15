@@ -25,6 +25,7 @@
     font-size: 5em;
     width: 50%;
     margin-bottom: 6rem;
+    transition: all 0.1s ease;
     
 }
 .spazi{
@@ -85,6 +86,7 @@
         transform-origin: right;
         margin-bottom: 40vh;
         margin-left: 3.5rem;
+        transition: all 0.2s ease;
     }
     .header_home img {
         /* position: absolute; */
