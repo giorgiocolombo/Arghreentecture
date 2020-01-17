@@ -39,6 +39,7 @@
     position: relative;
     color: white;
     margin-top: -3.3rem;
+    z-index: 2;
 }
 .box_text_header{
     height: 80px;
@@ -103,3 +104,12 @@
     }
 }
 
+/* Latest */
+.gallery {
+    border: 2px solid red;
+    width: 100%;
+}
+
+
+
+/* Archive */
