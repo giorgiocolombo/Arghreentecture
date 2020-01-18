@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    cursor: pointer;
+}
 .topbar {
     position: fixed;
     width: 100%;
@@ -10,68 +13,161 @@
     z-index: 99;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.8rem 3rem;
+    transition: all 0.1s;
+}
+.topbarbgc{
+    background-color: #0f8b8d;
+    transition: all 0.15s;
 }
 .topbar *{
-    width: 30px;
+    width: 20px;
+}
+.a_logo{
+    width: auto;
+    border: 2px solid rgba(255, 0, 0, 0);
 }
 .logo {
-    width: 50px;
+    width: 35px;
 }
 .logo:hover {
     opacity: 1;
 }
 .longbar{
-    width: 35px;
-    height: 3px;
+    width: 25px;
+    height: 2px;
     background-color: #fff;
     margin: 6px 0;
     transition: 0.5s;
 }
 .shortbar{
-    width: 25px;
-    height: 3px;
+    width: 15px;
+    height: 2px;
     background-color: #fff;
     margin: 6px 0;
     transition: 0.5s;
 }
 .longbaractive{
     transition: 0.5s;
-    transform: rotate(-45deg) translate(-8px, 5px) ;
+    transform: rotate(-45deg) translate(-6px, 5px) ;
     transform-origin: center;
+    background-color: #000;
 }
 .shortbaractive{
-    width: 35px;
+    width: 25px;
     transition: 0.5s;
     transform: rotate(45deg) ;
+    background-color: #000;
 }
 .menu {
-    width: 100vw;
+    width: 300px;
     height: 100vh;
     background-color: red;
     position: absolute;
-    top: 0;
-    left: -100vw;
     z-index: 1;
-    padding: 5rem 3rem;
-    transition: all linear 0.5s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, height cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+    transition: all 0.5s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, height cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+    background-color: #f47878;
+    top: 0;
+    left: -120vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0 5rem 0;
+    justify-content: center;
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 3rem 2.5rem;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 .menuactive{
-    left:0;
-    transition: all linear 0.5s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, height cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+    transition: all 0.3s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, height cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+    left: 0;
 }
-.ricerca:hover, .menu_icon:hover .shortbar, .menu_icon:hover .longbar {
+.search:hover, .menu_icon:hover .shortbar, .menu_icon:hover .longbar {
     opacity: 0.7;
 }
 
 .menu_icon {
     z-index: 99;
     position: relative;
+    cursor: pointer;
 }
 
+.logo_menu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 4.5rem;
+}
+.search{
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+}
+.search_form_container{
+    position: absolute;
+    width: 100vw;
+    height: 64.59px;
+    z-index: 99;
+    padding: 0.8rem 3rem;
+    top: 0;
+    right: -110vw;
+    transition: all 0.1s;
+    transition: all 0.5s linear;
+}
 
-@media(min-width:1000px){
-    .menu{
-        width: 50vw;
+.search_form_container_active{
+    right: 0;
+    transition: all 0.2s;
+}
+
+.search_form{
+    width: calc(100% - 3rem);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search_form input{
+    height: 90%;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #0f8b8d;
+    color: white;
+}
+
+@media (min-width:1000px){
+    .menu a{
+        padding: 3rem;
+    }
+    .hover_a_menu {
+        width: 0;
+        height: 100%;
+        background-color: #0f8b8d;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .link1:hover .hover1{
+        width: 15px;
+        transition: all 0.25s ease-in;
+    }
+    .link2:hover .hover2{
+        width: 15px;        
+        transition: all 0.25s ease-in;
+    }
+    .link3:hover .hover3{
+        width: 15px;
+        transition: all 0.25s ease-in;
     }
 }

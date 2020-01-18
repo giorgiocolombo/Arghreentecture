@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Spazi Sostenibili | Blog Architettura Milanese</title>
     <link rel="stylesheet" href="header.css">
-    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,10 +19,18 @@
             <div class="shortbar"></div>
         </div>
         <div class="menu">
-                aaa
+                <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
+                <a href="" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
+                <a href="" class="link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
+                <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
             </div>
-        <img src="img/logo.svg" alt="Logo" class="logo">
-        <img src="img/ricerca.svg" alt="Cerca" class="ricerca">
+        <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"></a>
+        <img src="img/ricerca.svg" alt="Cerca" class="search">
+        <div class="search_form_container">
+            <form action="https://www.google.it" class="search_form" id="search_form">
+                <input type="text" name="search_input">
+            </form>
+        </div>
     </header>
 </body>
 </html>
