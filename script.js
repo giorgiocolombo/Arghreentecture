@@ -35,6 +35,11 @@ $(function(){
             $("#search_form").submit();
           } else {
             $(".search_form_container").addClass("search_form_container_active");
+            if ($(".longbar").hasClass("longbaractive")){
+                $(".longbar").removeClass("longbaractive");
+                $(".shortbar").removeClass("shortbaractive");
+                $(".menu").removeClass("menuactive");
+            }
           }
     })
 

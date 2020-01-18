@@ -64,7 +64,7 @@ a{
     height: 100vh;
     background-color: red;
     position: absolute;
-    z-index: 1;
+    z-index: 101;
     transition: all 0.5s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, height cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
     background-color: #f47878;
     top: 0;
@@ -93,7 +93,7 @@ a{
 }
 
 .menu_icon {
-    z-index: 99;
+    z-index: 999;
     position: relative;
     cursor: pointer;
 }
@@ -113,7 +113,7 @@ a{
     position: absolute;
     width: 100vw;
     height: 64.59px;
-    z-index: 99;
+    z-index: 9999;
     padding: 0.8rem 3rem;
     top: 0;
     right: -110vw;
@@ -169,5 +169,11 @@ a{
     .link3:hover .hover3{
         width: 15px;
         transition: all 0.25s ease-in;
+    }
+}
+
+@media (max-width:400px){
+    .menu{
+        width: 100vw;
     }
 }
