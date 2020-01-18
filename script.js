@@ -12,6 +12,9 @@ $(function(){
             $(".longbar").addClass("longbaractive");
             $(".shortbar").addClass("shortbaractive");
             $(".menu").addClass("menuactive");
+            if ($(".search_form_container").hasClass("search_form_container_active")) {
+                $(".search_form_container").removeClass("search_form_container_active");
+            }
         }
     });
     
