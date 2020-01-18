@@ -53,7 +53,16 @@ $(function(){
           }
       })
 
-
+      $("body > *").not("body > .topbar").click(function() {
+        if ($(".search_form_container").hasClass("search_form_container_active")) {
+            $(".search_form_container").removeClass("search_form_container_active");
+        }
+        if ($(".longbar").hasClass("longbaractive")){
+            $(".longbar").removeClass("longbaractive");
+            $(".shortbar").removeClass("shortbaractive");
+            $(".menu").removeClass("menuactive");
+        }
+      })
 
   });
   
