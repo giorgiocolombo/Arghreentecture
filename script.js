@@ -47,11 +47,11 @@ $(function(){
     })
 
 
-    $(window).scroll(function() {
-        if ($(".search_form_container").hasClass("search_form_container_active")) {
-            $(".search_form_container").removeClass("search_form_container_active");
-          }
-      })
+    // $(window).scroll(function() {
+    //     if ($(".search_form_container").hasClass("search_form_container_active")) {
+    //         $(".search_form_container").removeClass("search_form_container_active");
+    //       }
+    // })
 
       $("body > *").not("body > .topbar").click(function() {
         if ($(".search_form_container").hasClass("search_form_container_active")) {
@@ -62,7 +62,7 @@ $(function(){
             $(".shortbar").removeClass("shortbaractive");
             $(".menu").removeClass("menuactive");
         }
-      })
+    })
 
   });
   
