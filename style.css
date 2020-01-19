@@ -1,4 +1,7 @@
 /* Homepage header */
+body {
+    box-sizing: border-box;
+}
 
 .header_home {
     background-color: #0f8b8d;
@@ -113,3 +116,69 @@
 
 
 /* Archive */
+#archive {
+    background-color: #0A171F;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+#archive h3 {
+    color: white;
+    font-family: 'Prata', helvetica;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 35px 0 0 35px;
+    position: relative;
+    z-index: 1;
+}
+
+#archive h3 div {
+    width: 60px;
+    height: 70px;
+    background-color: #0F8B8D;
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+}
+
+#archive article {
+    align-self: center;
+    margin-top: 80px;
+    width: 92%;
+    height: 20%;
+    overflow: hidden;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 7fr 11fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    background-color: #123C4C;
+    grid-gap: 18px 15px;
+}
+
+#archive .img-article {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    max-height: 100%;
+    width: auto;
+    overflow: hidden;
+    justify-self: end;
+}
+
+#archive .title-article {
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    color: white;
+    margin: auto;
+    padding-top: 18px;
+}
+
+#archive .preview-article {
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+    color: white;
+    margin: auto;
+    padding-bottom: 18px;
+    font-size: 15px;
+}
+
