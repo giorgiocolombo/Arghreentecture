@@ -146,30 +146,30 @@ a{
     z-index: 9999;
     position: relative;
 }
+.hover_a_menu {
+    width: 0;
+    height: 100%;
+    background-color: #0f8b8d;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.link1:hover .hover1{
+    width: 10px;
+    transition: all 0.25s ease-in;
+}
+.link2:hover .hover2{
+    width: 10px;        
+    transition: all 0.25s ease-in;
+}
+.link3:hover .hover3{
+    width: 10px;
+    transition: all 0.25s ease-in;
+}
 
 @media (min-width:1000px){
     .menu a{
         padding: 3rem;
-    }
-    .hover_a_menu {
-        width: 0;
-        height: 100%;
-        background-color: #0f8b8d;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-    .link1:hover .hover1{
-        width: 10px;
-        transition: all 0.25s ease-in;
-    }
-    .link2:hover .hover2{
-        width: 10px;        
-        transition: all 0.25s ease-in;
-    }
-    .link3:hover .hover3{
-        width: 10px;
-        transition: all 0.25s ease-in;
     }
 }
 
