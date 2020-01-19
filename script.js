@@ -31,7 +31,7 @@ $(function(){
         }
       });
 
-    // 
+    // Click on search icon open search bar and once opened submit form
 
     $(".search").click(function(){
         if ($(".search_form_container").hasClass("search_form_container_active")) {
@@ -46,12 +46,7 @@ $(function(){
           }
     })
 
-
-    // $(window).scroll(function() {
-    //     if ($(".search_form_container").hasClass("search_form_container_active")) {
-    //         $(".search_form_container").removeClass("search_form_container_active");
-    //       }
-    // })
+    // Click on any element but topbar makes searchbar or navmenu to close
 
       $("body > *").not("body > .topbar").click(function() {
         if ($(".search_form_container").hasClass("search_form_container_active")) {

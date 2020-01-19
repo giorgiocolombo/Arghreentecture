@@ -18,12 +18,12 @@
             <div class="longbar"></div>
             <div class="shortbar"></div>
         </div>
-        <div class="menu">
+        <nav class="menu">
                 <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
                 <a href="" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
                 <a href="" class="link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
-            </div>
+        </nav>
         <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"></a>
         <img src="img/ricerca.svg" alt="Cerca" class="search">
         <div class="search_form_container">

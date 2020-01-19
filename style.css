@@ -175,3 +175,72 @@ body {
     font-size: 15px;
 }
 
+/* Gallery posts */
+
+.gallery_item_1{
+    grid-area: prima;
+}
+
+.gallery_item_2{
+    grid-area: seconda;
+}
+
+.gallery_item_3{
+    grid-area: terza;
+}
+
+.gallery_item_4{
+    grid-area: quarta;
+}
+
+.gallery_item_5{
+    grid-area: quinta;
+}
+
+.gallery_posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:" prima  seconda "
+                        "terza terza "
+                        "quarta quinta";
+    grid-gap: 1rem;
+    max-width: 100%;
+    padding: 10%;
+    margin: auto;
+}
+.gallery__img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.gallery_item {
+    width: 100%;
+    background-color: #f47878;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+}
+
+@media(min-width:700px){
+    .gallery_posts {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:" prima prima seconda seconda terza terza"
+                            "quarta quarta quarta quinta quinta quinta";
+    }
+}
+
+@media(min-width:1000px){
+    .gallery_posts {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:" prima prima seconda seconda terza terza"
+                            "quarta quarta quarta quinta quinta quinta";
+        max-width: 1200px;
+        padding: 1rem;
+    }
+}
