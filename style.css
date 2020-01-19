@@ -110,8 +110,8 @@ body {
 
 /* Archive */
 #archive {
-    background-color: #0A171F;
-    height: 900px;
+    background-color:#050D12;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -133,20 +133,23 @@ body {
     z-index: -1;
     position: absolute;
     top: 50px;
+    border-radius: 7px;
 }
 
 #archive article {
     align-self: center;
     margin-top: 80px;
     width: 92%;
-    height: 20%;
+    height: 180px;
     overflow: hidden;
     border-radius: 7px;
     display: grid;
     grid-template-columns: 7fr 11fr 1fr;
     grid-template-rows: 1fr 4fr;
-    background-color: #123C4C;
-    grid-gap: 18px 15px;
+    background-color: #0A171F;
+    box-shadow: 
+    inset   0 -3em 3em rgba(0,0,0,0.1), 
+            0.5em 0.5em 1em rgba(0,0,0,0.3);
 }
 
 #archive .img-article {
@@ -156,6 +159,7 @@ body {
     width: auto;
     overflow: hidden;
     justify-self: end;
+    margin-right: 15px;
 }
 
 #archive .title-article {
@@ -164,6 +168,10 @@ body {
     color: white;
     margin: auto;
     padding-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0F8B8D;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 #archive .preview-article {
@@ -172,7 +180,14 @@ body {
     color: white;
     margin: auto;
     padding-bottom: 18px;
-    font-size: 15px;
+    font-size: 13px;
+    font-family: 'Montserrat' , 'Open Sans', sans-serif;
+}
+
+.chevron-right {
+    grid-row: 2/3;
+    width: 15px;
+    margin: auto;
 }
 
 /* Gallery posts */

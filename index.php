@@ -53,8 +53,24 @@
             <img class="img-article" src="img/preview.jpg" alt="preview">
             <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
             <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img class="chevron-right" src="img/chevron-right-solid.svg" alt="continua a leggere">
         </article>
-        <article></article>
+        <article>
+            <img class="img-article" src="img/preview.jpg" alt="preview">
+            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
+            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img class="chevron-right" src="img/chevron-right-solid.svg" alt="continua a leggere">
+        </article><article>
+            <img class="img-article" src="img/preview.jpg" alt="preview">
+            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
+            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img class="chevron-right" src="img/chevron-right-solid.svg" alt="continua a leggere">
+        </article><article>
+            <img class="img-article" src="img/preview.jpg" alt="preview">
+            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
+            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img class="chevron-right" src="img/chevron-right-solid.svg" alt="continua a leggere">
+        </article>
     </section>
     <?php include "footer.php"?>
 </body>

@@ -7,6 +7,7 @@
     <title>Spazi Sostenibili | Blog Architettura Milanese</title>
     <link rel="stylesheet" href="header.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
