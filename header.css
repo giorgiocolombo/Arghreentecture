@@ -114,14 +114,14 @@ a{
     width: 100vw;
     height: 64.59px;
     padding: 0.8rem 3rem;
-    top: 0;
-    right: -110vw;
+    top: -70px;
+    right: 0;
     transition: all 0.1s;
     transition: all 0.5s linear;
 }
 
 .search_form_container_active{
-    right: 0;
+    top: 0;
     transition: all 0.2s;
 }
 
@@ -137,7 +137,7 @@ a{
     height: 90%;
     width: 400px;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 0.5rem;
     text-align: center;
     border: 1px solid #fff;
@@ -160,15 +160,15 @@ a{
         top: 0;
     }
     .link1:hover .hover1{
-        width: 15px;
+        width: 10px;
         transition: all 0.25s ease-in;
     }
     .link2:hover .hover2{
-        width: 15px;        
+        width: 10px;        
         transition: all 0.25s ease-in;
     }
     .link3:hover .hover3{
-        width: 15px;
+        width: 10px;
         transition: all 0.25s ease-in;
     }
 }
