@@ -48,7 +48,7 @@ $(function(){
 
     // Click on any element but topbar makes searchbar or navmenu to close
 
-      $("body > *").not("body > .topbar").click(function() {
+    $("body > *").not("body > .topbar").click(function() {
         if ($(".search_form_container").hasClass("search_form_container_active")) {
             $(".search_form_container").removeClass("search_form_container_active");
         }
@@ -57,6 +57,16 @@ $(function(){
             $(".shortbar").removeClass("shortbaractive");
             $(".menu").removeClass("menuactive");
         }
+    })
+
+    // Gallery preview detailed 
+
+    $(".gallery_item").click(function() {      
+      var detailed_gallery = $(this).children(".detailed_gallery");
+      detailed_gallery.addClass("detailed_gallery_active");
+      $(".close_detailed_gallery").click(function(e) {
+        detailed_gallery.removeClass("detailed_gallery_active")
+      })
     })
 
   });

@@ -212,6 +212,11 @@ body {
     grid-area: quinta;
 }
 
+.gallery_item_6{
+    grid-area: sesta;
+    display: none;
+}
+
 .gallery_posts {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -222,6 +227,7 @@ body {
     max-width: 100%;
     padding: 10%;
     margin: auto;
+    position: relative;
 }
 .gallery_img {
     object-fit: cover;
@@ -249,7 +255,7 @@ body {
     position: absolute;
     bottom:10%;
     right:5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: right;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -264,22 +270,71 @@ body {
     position: relative;
 }
 
+.detailed_gallery{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    z-index:-1;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.detailed_gallery_active {
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.close_detailed_gallery{
+    position: fixed;
+    right: 80px;
+    top: 35px;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+.x_1{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    transform: rotate(-45deg) translate(-6px, 5px) ;
+    transform-origin: center;
+}
+
+.x_2{
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;    
+    width: 25px;
+    transition: 0.5s;
+    transform: rotate(45deg) ;
+
+}
+
 @media(min-width:700px){
     .gallery_posts {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:" prima prima seconda seconda terza terza"
-                            "quarta quarta quarta quinta quinta quinta";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:" prima seconda terza"
+                            "quarta quinta sesta";
+    }
+    .gallery_item_6{
+        display: block;
     }
 }
 
-@media(min-width:1000px){
+@media(min-width:1200px){
     .gallery_posts {
         grid-template-columns: 1fr 1fr 1fr  1fr 1fr ;
         grid-template-areas:" prima seconda terza quarta quinta";
         padding: 1rem;
         max-width: 90%;
     }
-    .figcaption {
-        font-size: 1.5rem;
+    .gallery_item_6{
+        display: none;
     }
 }
+    
