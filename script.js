@@ -59,17 +59,12 @@ $(function(){
         }
     })
 
-    // Gallery preview detailed 
+    // Viewport units on mobile
 
-    $(".gallery_item").click(function() {      
-      var detailed_gallery = $(this).children(".detailed_gallery");
-      detailed_gallery.addClass("detailed_gallery_active");
-      $(".close_detailed_gallery").addClass("close_detailed_gallery_active")
-      $(".close_detailed_gallery").click(function(e) {
-        detailed_gallery.removeClass("detailed_gallery_active");        
-      $(".close_detailed_gallery").addClass("close_detailed_gallery_active")
-      })
-    })
+    $(window).on("resize", function () {
+      var vh = window.innerHeight * 0.01;
+      $(document).css('--vh', `${vh}px`);
+    });
 
   });
   

@@ -116,7 +116,7 @@ body {
     flex-direction: column;
 }
 
-#archive h3 {
+section h3 {
     color: white;
     font-family: 'Prata', helvetica;
     font-size: 40px;
@@ -127,7 +127,7 @@ body {
     z-index: 1;
 }
 
-#archive h3 div {
+section h3 div {
     width: 60px;
     height: 70px;
     background-color: #0F8B8D;
@@ -274,6 +274,14 @@ body {
     position: relative;
 }
 
+.h3_on_white{
+    color: #000;
+}
+
+#gallery {
+    margin: 2rem 0 2rem;
+}
+
 
 @media(min-width:700px){
     .gallery_posts {
@@ -295,6 +303,9 @@ body {
     }
     .gallery_item_6{
         display: none;
+    }
+    #gallery {
+        margin: 2rem 0 5rem;
     }
 }
     
