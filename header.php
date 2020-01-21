@@ -22,7 +22,8 @@
         <nav class="menu">
                 <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
                 <a href="" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
-                <a href="" class="link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
+                <a href="" class="link3"> <div class="hover_a_menu hover3"></div> Gallerie</a>
+                <a href="" class="link4"> <div class="hover_a_menu hover4"></div> Articoli</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
         </nav>
         <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"></a>

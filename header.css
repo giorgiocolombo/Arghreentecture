@@ -100,7 +100,7 @@ a{
 
 .logo_menu{
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     width: 100%;
     padding: 0 4.5rem;
 }
@@ -166,6 +166,10 @@ a{
     width: 10px;
     transition: all 0.25s ease-in;
 }
+.link4:hover .hover4{
+    width: 10px;
+    transition: all 0.25s ease-in;
+}
 
 @media (min-width:1000px){
     .menu a{
@@ -182,5 +186,8 @@ a{
 @media (max-height:550px){
     .menu a{
         padding: 0.5rem 3rem;
+    }
+    .logo_menu{
+        display: none;
     }
 }

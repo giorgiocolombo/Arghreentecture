@@ -64,8 +64,10 @@ $(function(){
     $(".gallery_item").click(function() {      
       var detailed_gallery = $(this).children(".detailed_gallery");
       detailed_gallery.addClass("detailed_gallery_active");
+      $(".close_detailed_gallery").addClass("close_detailed_gallery_active")
       $(".close_detailed_gallery").click(function(e) {
-        detailed_gallery.removeClass("detailed_gallery_active")
+        detailed_gallery.removeClass("detailed_gallery_active");        
+      $(".close_detailed_gallery").addClass("close_detailed_gallery_active")
       })
     })
 
