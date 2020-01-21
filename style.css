@@ -130,7 +130,7 @@ section h3 {
 section h3 div {
     width: 60px;
     height: 70px;
-    background-color: #0F8B8D;
+    background-color: #f47878;
     z-index: -1;
     position: absolute;
     top: 50px;
@@ -275,7 +275,7 @@ section h3 div {
 }
 
 .h3_on_white{
-    color: #000;
+    color: #0A171F;
 }
 
 #gallery {

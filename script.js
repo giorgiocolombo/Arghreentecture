@@ -1,3 +1,4 @@
+var is_home=false;
 $(function(){
 
     // Navigation menu 
@@ -20,16 +21,19 @@ $(function(){
     
     //Scroll makes topbar bgc 
 
-    if ($(window).scrollTop() > 0) {
-        $(".topbar").addClass("topbarbgc");
-    }
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > 0) {
-          $(".topbar").addClass("topbarbgc");
-        } else {
-          $(".topbar").removeClass("topbarbgc");
+    if (is_home){
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 0) {
+            $(".topbar").addClass("topbarbgc");
+          } else {
+            $(".topbar").removeClass("topbarbgc");
         }
       });
+    }
+    else {
+      $(".topbar").addClass("topbarbgc");
+  }
+    
 
     // Click on search icon open search bar and once opened submit form
 
@@ -58,13 +62,6 @@ $(function(){
             $(".menu").removeClass("menuactive");
         }
     })
-
-    // Viewport units on mobile
-
-    $(window).on("resize", function () {
-      var vh = window.innerHeight * 0.01;
-      $(document).css('--vh', `${vh}px`);
-    });
 
   });
   
