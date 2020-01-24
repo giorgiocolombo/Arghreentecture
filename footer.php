@@ -2,7 +2,6 @@
 <html lang="it">
 <head>
     <link rel="stylesheet" href="footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 </head>
 <body>
     <footer>
