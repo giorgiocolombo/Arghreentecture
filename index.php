@@ -58,7 +58,7 @@
     
     <section id="archive">
         <h3><div></div>Articoli</h3>
-        
+        <div class="article_container">
         <article>
             <img class="img-article" src="img-samples/photo-1579126999978-eac334843123.jpg" alt="preview">
             <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
@@ -107,6 +107,7 @@
             <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
         </article>
+        </div>
     </section>
 
     <script>
