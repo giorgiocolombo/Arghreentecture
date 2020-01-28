@@ -126,7 +126,7 @@ body {
 /* Posts */
 
 #article{
-    padding-top: 68.59px;
+    padding-top: 168.59px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -168,7 +168,10 @@ body {
     font-weight: 300;
 }
 .text_card *{
-    margin: 1rem 0;
+    margin: 0.5rem 0;
+}
+.text_card_p{
+    margin: 1rem auto;
 }
 .pic_card_container{
     left: -100px;
@@ -178,15 +181,28 @@ body {
     grid-row: 6/43;
     z-index: 3;
     background-color: blue;
+    padding: 0;
+    margin: 0;
 }
 .tags{
     display: flex;
+    color: #0b5454;
+    font-size: 0.9rem;
+    margin: 0;
+}
+.tags p{
+    margin-right: 0.5rem;
 }
 .interaction{
     display: flex;
+    justify-content: space-around;
+}
+.interaction img{
+    width: 30px;
+    margin-left: -2rem;
 }
 .button_article{
-    background-color: #8f8b8d;
+    background-color: #0f8b8d;
     color: #fff;
     padding: 0.8rem;
 }
