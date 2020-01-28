@@ -7,15 +7,51 @@
                     <div class="box_text_header"></div>
                 </div>
                 <p class="sostenibili">SOSTENIBILI</p>
-                <p class="payoff">Blog di architettura ecosostenibile</p>
             </div>
             <img src="img/bosco.png" alt="Bosco verticale" id="bosco2">
             <img src="img/bosco.png" alt="Bosco verticale" id="bosco1">
         </div>
     </div>
 
-    <section id="gallery">
-        <h3 class="h3_on_white"><div></div>Gallerie</h3>
+    
+    <section class="article_section">   
+        <div id="article">
+            <div class="container_article ca_1">
+                <div class="text_card">
+                    <div class="tags">
+                        <p>Autore</p>
+                    </div>
+                    <h2>Titolo articolo di Spazi Sostenibili</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <div class="interaction">
+                        <div class="button_article">Continua a leggere</div>
+                    </div>
+                </div>
+                <div class="pic_card_container">
+                    <img class="pic_card" src="img-samples/photo-1579194044198-cdd94102ef46.jpg">
+                </div>
+                <div class="green_card"></div>
+                <div class="pink_card"></div>
+            </div>
+            <div class="container_article ca_2">
+                <div class="text_card">
+                    <div class="tags">
+                        <p>Autore</p>
+                    </div>
+                    <h2>Titolo articolo di Spazi Sostenibili</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <div class="interaction">
+                        <div class="button_article">Continua a leggere</div>
+                    </div>
+                </div>
+                <div class="pic_card_container">
+                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                </div>
+                <div class="green_card"></div>
+                <div class="pink_card"></div>
+            </div>
+</section>
+<section id="gallery">
         <div class="gallery_posts">
             <a href="gallery.php" class="gallery_item gallery_item_1">
                 <div class="gallery_cover"></div>
@@ -55,61 +91,43 @@
             
         </div>
     </section>
-    
-    <section id="archive">
-        <h3><div></div>Articoli</h3>
-        <div class="article_container">
-        <article>
-            <img class="img-article" src="img-samples/photo-1579126999978-eac334843123.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate facilis corporis expedita est alias quis ratione aliquam nobis rerum atque, tenetur commodi a enim natus vitae modi cumque doloribus?
-            Voluptatibus harum excepturi non doloremque reprehenderit accusamus aliquam veritatis hic consectetur aspernatur, perferendis aperiam placeat cupiditate voluptas itaque quis nam voluptate expedita quas qui voluptatem ab error tempore! Illum, necessitatibus!
-            Harum commodi voluptate aliquid odit molestiae, nobis odio, maiores quasi facilis cumque dolor qui repellat, similique adipisci! Exercitationem, ad ipsa ratione cumque nesciunt voluptatem saepe illum? Tenetur maxime harum ducimus!
-            Rerum magni laborum ipsam eius ea molestiae voluptatem dolores ullam tempora repellat iure mollitia neque aliquam, eveniet pariatur aut veritatis error molestias reprehenderit ab quae ex eum totam. Reprehenderit, quis!
-            Pariatur repellendus odit reiciendis repudiandae corrupti! Ipsam, commodi maxime. Atque beatae omnis earum provident numquam aliquam temporibus voluptatibus magni nesciunt cumque esse illo, eos vero! Sint, odio! Nesciunt, ad voluptates!</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        <article>
-            <img class="img-article" src="img-samples/photo-1579126999978-eac334843123.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate facilis corporis expedita est alias quis ratione aliquam nobis rerum atque, tenetur commodi a enim natus vitae modi cumque doloribus?
-            Voluptatibus harum excepturi non doloremque reprehenderit accusamus aliquam veritatis hic consectetur aspernatur, perferendis aperiam placeat cupiditate voluptas itaque quis nam voluptate expedita quas qui voluptatem ab error tempore! Illum, necessitatibus!
-            Harum commodi voluptate aliquid odit molestiae, nobis odio, maiores quasi facilis cumque dolor qui repellat, similique adipisci! Exercitationem, ad ipsa ratione cumque nesciunt voluptatem saepe illum? Tenetur maxime harum ducimus!
-            Rerum magni laborum ipsam eius ea molestiae voluptatem dolores ullam tempora repellat iure mollitia neque aliquam, eveniet pariatur aut veritatis error molestias reprehenderit ab quae ex eum totam. Reprehenderit, quis!
-            Pariatur repellendus odit reiciendis repudiandae corrupti! Ipsam, commodi maxime. Atque beatae omnis earum provident numquam aliquam temporibus voluptatibus magni nesciunt cumque esse illo, eos vero! Sint, odio! Nesciunt, ad voluptates!</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        <article>
-            <img class="img-article" src="img-samples/photo-1579126999978-eac334843123.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate facilis corporis expedita est alias quis ratione aliquam nobis rerum atque, tenetur commodi a enim natus vitae modi cumque doloribus?
-            Voluptatibus harum excepturi non doloremque reprehenderit accusamus aliquam veritatis hic consectetur aspernatur, perferendis aperiam placeat cupiditate voluptas itaque quis nam voluptate expedita quas qui voluptatem ab error tempore! Illum, necessitatibus!
-            Harum commodi voluptate aliquid odit molestiae, nobis odio, maiores quasi facilis cumque dolor qui repellat, similique adipisci! Exercitationem, ad ipsa ratione cumque nesciunt voluptatem saepe illum? Tenetur maxime harum ducimus!
-            Rerum magni laborum ipsam eius ea molestiae voluptatem dolores ullam tempora repellat iure mollitia neque aliquam, eveniet pariatur aut veritatis error molestias reprehenderit ab quae ex eum totam. Reprehenderit, quis!
-            Pariatur repellendus odit reiciendis repudiandae corrupti! Ipsam, commodi maxime. Atque beatae omnis earum provident numquam aliquam temporibus voluptatibus magni nesciunt cumque esse illo, eos vero! Sint, odio! Nesciunt, ad voluptates!</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        <article>
-            <img class="img-article" src="img/preview.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        <article>
-            <img class="img-article" src="img/preview.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        <article>
-            <img class="img-article" src="img/preview.jpg" alt="preview">
-            <p class="title-article">Ecco come dovrebbe essere un articolo scritto su SS.</p>
-            <p class="preview-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="article.php" class="article_button"><p>Continua a leggere</p></a>
-        </article>
-        </div>
-    </section>
-
+    <section class="article_section">   
+        <div id="article">
+            <div class="container_article ca_3">
+                <div class="text_card">
+                    <div class="tags">
+                        <p>Autore</p>
+                    </div>
+                    <h2>Titolo articolo di Spazi Sostenibili</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <div class="interaction">
+                        <div class="button_article">Continua a leggere</div>
+                    </div>
+                </div>
+                <div class="pic_card_container">
+                    <img class="pic_card" src="img-samples/photo-1579194044198-cdd94102ef46.jpg">
+                </div>
+                <div class="green_card"></div>
+                <div class="pink_card"></div>
+            </div>
+            <div class="container_article ca_4">
+                <div class="text_card">
+                    <div class="tags">
+                        <p>Autore</p>
+                    </div>
+                    <h2>Titolo articolo di Spazi Sostenibili</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <div class="interaction">
+                        <div class="button_article">Continua a leggere</div>
+                    </div>
+                </div>
+                <div class="pic_card_container">
+                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                </div>
+                <div class="green_card"></div>
+                <div class="pink_card"></div>
+            </div>
+</section>
     <script>
         is_home=true
     </script>

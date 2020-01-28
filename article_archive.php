@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="pic_card_container">
-            <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+            <img class="pic_card" src="img-samples/photo-1579194044198-cdd94102ef46.jpg">
         </div>
         <div class="green_card"></div>
         <div class="pink_card"></div>

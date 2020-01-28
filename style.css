@@ -44,14 +44,6 @@ body {
     margin-top: -3.3rem;
     z-index: 2;
 }
-.payoff{
-    position: absolute;
-    font-size: 2rem;
-    background-color: #fff;
-    padding: 0 0.5rem;
-    color: #0A171F;
-    display: none;
-}
 .box_text_header{
     height: 80px;
     width: 180px;
@@ -102,10 +94,6 @@ body {
         /* position: absolute; */
         bottom: 0;
     }
-    .payoff{
-        display: block;
-        font-size: 1.5rem;
-    }
 }
 @media (min-width:1000px){
     .header_home{
@@ -126,18 +114,18 @@ body {
 /* Posts */
 
 #article{
-    padding-top: 168.59px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1600px;
 }
 .container_article{
     display: grid;
     margin: auto;
     grid-template-columns: repeat(50, 1fr);
     grid-template-rows: repeat(50, 1fr);
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 600px;
+    max-height: 600px;
 }
 .green_card{
     background-color: #0f8b8d;
@@ -159,11 +147,10 @@ body {
 .text_card{
     background-color: #fff;
     position: relative;
-    grid-column: 22/51;
-    grid-row: 17/51;
+    grid-column: 15/51;
+    grid-row: 13/51;
     z-index: 4;
     padding: 2rem;
-    padding-right: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -172,6 +159,8 @@ body {
 }
 .text_card_p{
     margin: 1rem auto;
+    overflow: hidden;
+    height: 39%;
 }
 .pic_card_container{
     left: -100px;
@@ -206,6 +195,82 @@ body {
     color: #fff;
     padding: 0.8rem;
 }
+.ca_4 .text_card{
+    grid-column: 3/36;
+    grid-row: 11/45;
+}
+.ca_4 .pic_card_container{
+    grid-column: 13/47;
+    grid-row: 5/40;
+}
+.ca_4 .green_card{
+    grid-column: 10/51;
+    grid-row: 19/49;    
+}
+.ca_4 .pink_card{
+    grid-column: 1/15;
+    grid-row: 10/35;
+}
+.ca_3 .text_card{
+    grid-column: 10/45;
+    grid-row: 13/51;
+}
+.ca_3 .pic_card_container{
+    grid-column: 1/40;
+    grid-row: 7/40;
+}
+.ca_3 .pink_card{
+    grid-column: 35/50;
+    grid-row: 1/20;        
+}
+.ca_3 .green_card{
+    grid-column: 7/33;
+    grid-row: 4/20;;
+}
+.ca_2 .text_card{
+    grid-column: 1/38;
+    grid-row: 16/50;
+}
+.ca_2 .pic_card_container{
+    grid-column: 18/50;
+    grid-row: 10/43;
+}
+.ca_2 .pink_card{
+    grid-column: 30/40;
+    grid-row: 7/20;        
+}
+.ca_2 .green_card{
+    grid-column: 7/33;
+    grid-row: 4/20;;
+}
+
+@media (min-width:700px){
+    #article{
+        max-width: 900px;
+    }
+    .ca_1{
+        margin-left: 5%;
+    }
+    .ca_2{
+        margin-right: 5%;
+    }
+    .ca_3{
+        margin-left: 5%;
+    }
+    .ca_4{
+        margin-right: 5%;
+    }
+}
+@media (min-width:1000px){
+    #article{
+        grid-template-columns: 1fr 1fr;
+        max-width: 1600px;
+    }
+    .ca_1, .ca_2, .ca_3, .ca_4{
+        margin: auto;
+    }
+}
+
 /* Gallery posts */
 
 .gallery_item_1{
@@ -275,7 +340,7 @@ body {
     font-size: 1.5rem;
     text-align: right;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prata', serif;
     margin-left: 10%;
 }
 
@@ -293,15 +358,8 @@ body {
     transition: all 0.5s;
 }
 
-.h3_on_white{
-    color: #0A171F;
-}
-.h3_on_white div{
-    background-color: #f47878;
-}
-
 #gallery {
-    margin: 2rem 0 2rem;
+    padding-bottom: 1rem;
 }
 
 
