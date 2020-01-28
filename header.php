@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    
 </head>
 <body>
     <header class="topbar">
@@ -21,15 +23,15 @@
         </div>
         <nav class="menu">
                 <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
-                <a href="" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
-                <a href="" class="link3"> <div class="hover_a_menu hover3"></div> Gallerie</a>
-                <a href="" class="link4"> <div class="hover_a_menu hover4"></div> Articoli</a>
+                <a href="team.php" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
+                <a href="gallery_archive.php" class="link3"> <div class="hover_a_menu hover3"></div> Gallerie</a>
+                <a href="article_archive.php" class="link4"> <div class="hover_a_menu hover4"></div> Articoli</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
         </nav>
         <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"></a>
         <img src="img/ricerca.svg" alt="Cerca" class="search">
         <div class="search_form_container">
-            <form action="https://www.google.it" class="search_form" id="search_form">
+            <form action="search.php" class="search_form" id="search_form">
                 <input type="text" name="search_input">
             </form>
         </div>

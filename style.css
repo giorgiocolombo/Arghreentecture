@@ -44,6 +44,14 @@ body {
     margin-top: -3.3rem;
     z-index: 2;
 }
+.payoff{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #fff;
+    padding: 0 0.5rem;
+    color: #0A171F;
+    display: none;
+}
 .box_text_header{
     height: 80px;
     width: 180px;
@@ -94,6 +102,10 @@ body {
         /* position: absolute; */
         bottom: 0;
     }
+    .payoff{
+        display: block;
+        font-size: 1.5rem;
+    }
 }
 @media (min-width:1000px){
     .header_home{
@@ -104,6 +116,9 @@ body {
     }
     .container_text_header{
         margin-left: 0;
+    }
+    .payoff{
+        font-size: 2rem;
     }
 }
 
@@ -258,6 +273,7 @@ section h3 div {
     bottom: 0;
     right: 0;
     z-index: 1;
+    transition: all 0.5s;
 }
 .gallery_cover {
     width: 100%;
@@ -288,6 +304,12 @@ section h3 div {
     height: 0;
     padding-top: 100%;
     position: relative;
+    overflow: hidden;
+}
+
+.gallery_item:hover .gallery_img{
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 .h3_on_white{
@@ -328,3 +350,148 @@ section h3 div {
     }
 }
     
+/* Gallery page */
+
+.gallery_page_container{
+    padding-top: calc(68.59px);
+    width: 100%;
+    display: grid;
+    background-color: #050D12;
+    grid-template-areas: "gallery_info"
+                        "gallery_gallery"
+                        "gallery_suggestions";
+}
+.gallery_page_gallery{
+    width: 90%;
+    height: calc(100vh - 100px);
+    position: relative;
+    margin: 2rem auto;
+    grid-area: gallery_gallery;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    height: 60px;
+    background-color: #f47878;
+    color: white;
+    align-items: center;
+    z-index: 1;
+}
+.arrow img{
+    height: 25px;
+    width: auto;
+    margin: 0.5rem;
+}
+.arrow_prev{
+    left: -15px;
+    top: calc(50% - 30px);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 0.2rem;
+}
+.arrow_next{
+    position: absolute;
+    right: -15px;
+    top: calc(50% - 30px);    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.arrow p {
+    width: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-out;
+}
+.gallery_img_container{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img_general{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -100%;
+    transition: all 0.3s;
+    object-fit: contain;
+    min-height: 80%;   
+}
+.img_active{
+    right: 0;
+    transition: all 0.3s;
+}
+.img_scrolled{
+    right: 100%;    
+    transition: all 0.3s;
+}
+.gallery_page_info{
+    width: 100%;
+    background-color: #0f8b8d;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Prata', serif;
+    grid-area: gallery_info;
+}
+.gallery_page_suggestions{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    grid-area: gallery_suggestions;
+}
+.gallery_page_info h2{
+    margin-bottom: 1rem;
+}
+.gallery_page_suggestions h2 {
+    padding: 3rem 2rem 0 2rem;
+    font-family: 'Prata', serif;
+}
+.gallery_page_suggestions .gallery_posts {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:" prima seconda"
+                        "terza quarta";
+}
+
+@media (min-width:700px) {
+    .gallery_page_suggestions .gallery_posts {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "prima seconda terza quarta";
+    }
+    .arrow:hover{
+        border-radius: 5px;
+    }
+    .arrow_prev:hover p{
+        width: 110px;
+    }
+    .arrow_next:hover p{
+        width: 100px;
+    }
+    .arrow:hover p{
+        padding: 0 0.5rem;
+        transition: all 0.3s ease-in;
+    }
+}
+@media (min-width:1000px) {
+    .gallery_page_container{
+        grid-template-columns: 3fr 1.5fr;
+        grid-template-areas: "gallery_gallery gallery_info"
+                            "gallery_gallery gallery_suggestions"
+                            "gallery_gallery gallery_suggestions";
+        height: 100vh;
+    }
+    .gallery_page_suggestions .gallery_posts {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:" prima seconda"
+                            "terza quarta";
+    }
+    .gallery_page_gallery{
+        margin: auto auto;
+        height: 90%;
+    }
+}
+@media (min-width:1400px) {
+    .gallery_page_container{
+        grid-template-columns: 3fr 1fr;
+    }
+}

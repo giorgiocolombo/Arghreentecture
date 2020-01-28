@@ -7,6 +7,7 @@
                     <div class="box_text_header"></div>
                 </div>
                 <p class="sostenibili">SOSTENIBILI</p>
+                <p class="payoff">Blog di architettura ecosostenibile</p>
             </div>
             <img src="img/bosco.png" alt="Bosco verticale" id="bosco2">
             <img src="img/bosco.png" alt="Bosco verticale" id="bosco1">
