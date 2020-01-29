@@ -19,19 +19,18 @@
 </head>
 <body>
     <header class="topbar">
-        <div class="menu_icon">
+        <div class="menu_icon" data-aos="fade-down" data-aos-duration="300">
             <div class="longbar"></div>
             <div class="shortbar"></div>
         </div>
         <nav class="menu">
                 <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
                 <a href="team.php" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
-                <a href="gallery_archive.php" class="link3"> <div class="hover_a_menu hover3"></div> Gallerie</a>
-                <a href="article_archive.php" class="link4"> <div class="hover_a_menu hover4"></div> Articoli</a>
+                <a href="archive.php" class="link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
         </nav>
-        <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"></a>
-        <img src="img/ricerca.svg" alt="Cerca" class="search">
+        <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo" data-aos="fade-down" data-aos-duration="300"></a>
+        <img src="img/ricerca.svg" alt="Cerca" class="search" data-aos="fade-down" data-aos-duration="300">
         <div class="search_form_container">
             <form action="search.php" class="search_form" id="search_form">
                 <input type="text" name="search_input">

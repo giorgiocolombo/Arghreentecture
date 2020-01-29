@@ -19,12 +19,12 @@
             </div>
         </div>
         <div class="gallery_page_info">
-            <h2 class="gallery_page_title">Titolo galleria</h2>
-            <p class="gallery_page_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia expedita corporis atque laudantium repellendus a, recusandae explicabo vel? Vitae sapiente quae, in animi eius beatae ipsam aut illo dolores nam.</p>
+            <h2 class="gallery_page_title" data-aos="fade-down" data-aos-duration="300">Titolo galleria</h2>
+            <p class="gallery_page_description" data-aos="fade-down" data-aos-duration="300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia expedita corporis atque laudantium repellendus a, recusandae explicabo vel? Vitae sapiente quae, in animi eius beatae ipsam aut illo dolores nam.</p>
         </div>
         <div class="gallery_page_suggestions">
-            <h2>Altre gallerie</h2>
-            <div class="gallery_posts">
+            <h2 data-aos="fade-up" data-aos-duration="300">Altre gallerie</h2>
+            <div class="gallery_posts"data-aos="fade-up" data-aos-duration="300">
                 <a href="gallery.php" class="gallery_item gallery_item_1">
                     <div class="gallery_cover"></div>
                     <p class="figcaption">Nome Gallery 1</p>

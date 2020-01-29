@@ -1,15 +1,15 @@
     <?php include "header.php"?>
     <div class="container_home">
         <div class="header_home">
-            <div class="container_text_header">
+            <div class="container_text_header" data-aos="fade-right" data-aos-duration="600">
                 <div class="spazi">
                     <p>SPAZI</p>
                     <div class="box_text_header"></div>
                 </div>
                 <p class="sostenibili">SOSTENIBILI</p>
             </div>
-            <img src="img/bosco.png" alt="Bosco verticale" id="bosco2">
-            <img src="img/bosco.png" alt="Bosco verticale" id="bosco1">
+            <img data-aos="fade-left" data-aos-duration="300" src="img/bosco.png" alt="Bosco verticale" id="bosco2">
+            <img data-aos="fade-left" data-aos-duration="300" src="img/bosco.png" alt="Bosco verticale" id="bosco1">
         </div>
     </div>
 
@@ -167,8 +167,10 @@
                 <div class="pink_card"></div>
             </div>
     </section>
+    <div class="link_to_archive_div">
+        <a href="archive.php" class="link_to_archive">Vai all'archivio</a>
+    </div>
     <script>
         is_home=true;
-        AOS.init();
     </script>
     <?php include "footer.php"?>

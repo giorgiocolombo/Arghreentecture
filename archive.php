@@ -3,5 +3,5 @@
 <br>
 <br>
 <br>
-<br> Gallery</h1>
+<br> Archivio</h1>
 <?php include "footer.php"?>

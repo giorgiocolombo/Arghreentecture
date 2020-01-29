@@ -1,5 +1,6 @@
 var is_home=false;
-$(function(){
+$(function(){ 
+  AOS.init();
 
     // Navigation menu 
 
