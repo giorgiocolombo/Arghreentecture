@@ -189,6 +189,7 @@ body {
     margin: 1rem auto;
     overflow: hidden;
     height: 39%;
+    line-height: 1.2;
 }
 .pic_card_container{
     left: -100px;
