@@ -18,7 +18,7 @@
     </section>
     <section class="article_section">   
         <div id="article">
-            <div class="container_article ca_1">
+            <div class="container_article ca_1" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -36,7 +36,7 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-            <div class="container_article ca_2">
+            <div class="container_article ca_2" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -55,7 +55,7 @@
                 <div class="pink_card"></div>
             </div>
     </section>
-    <section id="gallery">
+    <section id="gallery" data-aos="fade-up" data-aos-duration="600">
         <div class="gallery_posts">
             <a href="gallery.php" class="gallery_item gallery_item_1">
                 <div class="gallery_cover"></div>
@@ -97,7 +97,7 @@
     </section>
     <section class="article_section">   
         <div id="article">
-            <div class="container_article ca_3">
+            <div class="container_article ca_3" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -115,7 +115,7 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-            <div class="container_article ca_4">
+            <div class="container_article ca_4" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -132,7 +132,7 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-            <div class="container_article ca_5">
+            <div class="container_article ca_5" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -149,7 +149,7 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-            <div class="container_article ca_6">
+            <div class="container_article ca_6" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
@@ -168,6 +168,7 @@
             </div>
     </section>
     <script>
-        is_home=true
+        is_home=true;
+        AOS.init();
     </script>
     <?php include "footer.php"?>

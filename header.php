@@ -13,6 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="aos.css">
+    <script src="aos.js"></script>
     
 </head>
 <body>
