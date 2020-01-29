@@ -13,7 +13,9 @@
         </div>
     </div>
 
-    
+    <section class="payoff">
+        
+    </section>
     <section class="article_section">   
         <div id="article">
             <div class="container_article ca_1">
@@ -50,8 +52,8 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-</section>
-<section id="gallery">
+    </section>
+    <section id="gallery">
         <div class="gallery_posts">
             <a href="gallery.php" class="gallery_item gallery_item_1">
                 <div class="gallery_cover"></div>
@@ -127,7 +129,7 @@
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
             </div>
-</section>
+    </section>
     <script>
         is_home=true
     </script>

@@ -105,11 +105,16 @@ body {
     .container_text_header{
         margin-left: 0;
     }
-    .payoff{
-        font-size: 2rem;
-    }
 }
 
+/* Payoff */
+
+.payoff{
+    background-color: #0c5757;
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+}
 
 /* Posts */
 
@@ -220,8 +225,8 @@ body {
     grid-row: 7/40;
 }
 .ca_3 .pink_card{
-    grid-column: 35/50;
-    grid-row: 1/20;        
+    grid-column: 35/51;
+    grid-row: 1/20;     
 }
 .ca_3 .green_card{
     grid-column: 7/33;
@@ -232,7 +237,7 @@ body {
     grid-row: 16/50;
 }
 .ca_2 .pic_card_container{
-    grid-column: 18/50;
+    grid-column: 18/51;
     grid-row: 10/43;
 }
 .ca_2 .pink_card{
