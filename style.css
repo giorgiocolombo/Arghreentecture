@@ -22,6 +22,11 @@ body {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+.search_alternative{
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 1.2rem;
+}
 
 .header_home {
     background-color: #0f8b8d;
@@ -749,7 +754,7 @@ body {
         font-size: 8rem;
         color: #123C4C;
         text-align:center;
-        padding-top: calc(68.59px + 3rem);
+        padding-top: calc(68.59px + 4rem);
     }
 
     @media(min-width:700px){
