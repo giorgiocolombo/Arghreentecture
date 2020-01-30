@@ -10,7 +10,7 @@
                 <img src="img/next.svg" alt="Prossima">
             </div>
             <div class="gallery_img_container" 
-        <a href="archive.php" class="link_to_archive" data-aos="zoom-in" data-aos-duration="150">
+        <a href="archive.php" class="link_to_archive">
                 <img class="img_general img_active" src="img-samples/photo-1579126999978-eac334843123.jpg">
                 <img class="img_general" src="img-samples/photo-1579194044198-cdd94102ef46.jpg">
                 <img class="img_general" src="img-samples/photo-1579160855213-a6e60979eecf.jpg">

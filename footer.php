@@ -5,7 +5,7 @@
 </head>
 <body>
     <footer>
-    <img src="img/full_logo.svg" alt="logo Spazi Sostenibili">
+    <!-- <img src="img/full_logo.svg" alt="logo Spazi Sostenibili"> -->
         <ul>
             <li><a href="#"><img src="img/instagram-logo.svg" alt="Spazi Sostenibili Instagram"></a></li>
             <li><a href="#"><img src="img/facebook-logo.svg" alt="Spazi Sostenibili Facebook"></a></li>
