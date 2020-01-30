@@ -14,7 +14,7 @@
     </div>
 
     <section class="payoff">
-        <h1>Il payoff</h1>
+        <h1 data-aos="fade-up" data-aos-duration="600">Prospettive green a Milano</h1>
     </section>
     <section class="article_section">   
         <div id="article">

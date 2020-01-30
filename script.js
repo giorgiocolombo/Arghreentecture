@@ -1,4 +1,5 @@
 var is_home=false;
+var is_404=false
 $(function(){ 
   AOS.init();
 
@@ -33,7 +34,11 @@ $(function(){
     }
     else {
       $(".topbar").addClass("topbarbgc");
-  }
+    }
+    if (is_404){
+      $(".topbar").css("background-color","rgba(0,0,0,0)");
+      $(".menu").css("background-color","rgba(255,255,255,1)");
+    }
     
 
     // Click on search icon open search bar and once opened submit form

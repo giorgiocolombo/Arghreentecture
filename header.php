@@ -7,7 +7,6 @@
     <title>Spazi Sostenibili | Blog Architettura Milanese</title>
     <link rel="stylesheet" href="header.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Prata&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
@@ -24,9 +23,9 @@
             <div class="shortbar"></div>
         </div>
         <nav class="menu">
-                <a href="index.php" class="link1"> <div class="hover_a_menu hover1"></div> Home </a>
-                <a href="team.php" class="link2"> <div class="hover_a_menu hover2"></div> Team</a>
-                <a href="archive.php" class="link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
+                <a href="index.php" class="linkmenu link1"> <div class="hover_a_menu hover1"></div> Home </a>
+                <a href="team.php" class="linkmenu link2"> <div class="hover_a_menu hover2"></div> Team</a>
+                <a href="archive.php" class="linkmenu link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
         </nav>
         <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo" data-aos="fade-down" data-aos-duration="300"></a>
