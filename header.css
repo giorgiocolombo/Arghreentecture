@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-drag: none; 
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -19,7 +18,7 @@ a{
     z-index: 99;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2rem;
     transition: all 0.1s;
 }
 .topbarbgc{
@@ -32,9 +31,20 @@ a{
 .a_logo{
     width: auto;
     border: 2px solid rgba(255, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Prata', serif;
+}
+.a_logo p{
+    width: auto;
+    margin-top:4px
 }
 .logo {
     width: 35px;
+    margin-right: 0.5rem;
 }
 .logo:hover {
     opacity: 1;

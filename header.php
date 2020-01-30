@@ -18,7 +18,7 @@
 </head>
 <body>
     <header class="topbar">
-        <div class="menu_icon" data-aos="zoom-in" data-aos-duration="600">
+        <div class="menu_icon">
             <div class="longbar"></div>
             <div class="shortbar"></div>
         </div>
@@ -28,8 +28,8 @@
                 <a href="archive.php" class="linkmenu link3"> <div class="hover_a_menu hover3"></div> Archivio</a>
                 <img src="img/black_full_logo.svg" alt="logo Spazi Sostenibili" class="logo_menu">
         </nav>
-        <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo" data-aos="zoom-in" data-aos-duration="600"></a>
-        <img src="img/ricerca.svg" alt="Cerca" class="search" data-aos="zoom-in" data-aos-duration=600">
+        <a href="index.php" class="a_logo"><img src="img/logo.svg" alt="Logo" class="logo"><p class="logo_p" >Spazi Sostenibili</p></a>
+        <img src="img/ricerca.svg" alt="Cerca" class="search">
         <div class="search_form_container">
             <form action="search.php" class="search_form" id="search_form">
                 <input type="text" name="search_input">
