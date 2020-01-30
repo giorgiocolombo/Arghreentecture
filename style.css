@@ -18,7 +18,7 @@ body {
 .link_to_archive{
     background-color: #0f8b8d;
     color: #fff;
-    padding: 0.8rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -140,8 +140,8 @@ body {
 }
 .payoff h1{
     font-family: 'taman-signature', cursive;
-    font-size: 10rem;
-    font-weight: 100;
+    font-size: 4rem;
+    color: #123C4C;
 }
 
 
@@ -324,42 +324,18 @@ body {
     #article{
         max-width: 900px;
     }
-    .ca_1{
+    .ca_1, .ca_3, .ca_5{
         margin-left: 5%;
     }
-    .ca_2{
-        margin-right: 5%;
-    }
-    .ca_3{
-        margin-left: 5%;
-    }
-    .ca_4{
-        margin-right: 5%;
-    }
-    .ca_5{
-        margin-left: 5%;
-    }
-    .ca_6{
+    .ca_2, .ca_4, .ca_6{
         margin-right: 5%;
     }
 }
 @media (min-width:1010px){
-    .ca_1{
+    .ca_1, .ca_3, .ca_5{
         margin-left: -5%;
     }
-    .ca_2{
-        margin-right: -5%;
-    }
-    .ca_3{
-        margin-left: -5%;
-    }
-    .ca_4{
-        margin-right: -5%;
-    }
-    .ca_5{
-        margin-left: -5%;
-    }
-    .ca_6{
+    .ca_2, .ca_4, .ca_6{
         margin-right: -5%;
     }
 }
@@ -473,6 +449,11 @@ body {
     }
     .gallery_item_6{
         display: block;
+    }
+    .payoff h1{
+        font-family: 'taman-signature', cursive;
+        font-size: 7rem;
+        font-weight: bold;
     }
 }
 
@@ -690,3 +671,94 @@ body {
 .quattroaction a:hover{
     opacity: 1;
 }
+
+/* Archive page */
+
+.container_article_archive{
+    display: grid;
+    margin: 4rem auto;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50, 1fr);
+    max-width: 600px;
+    max-height: 550px;
+    }
+    .container_article_archive .text_card{
+        grid-column: 5/47;
+        grid-row: 15/51;
+    }
+    .container_article_archive .text_card_p{
+        height: 150px;
+        text-overflow: hidden;
+    }
+    .container_article_archive .pic_card_container{
+        grid-column: 5/47;
+        grid-row: 3/15;
+    }
+    .container_article_archive .green_card{
+        grid-column: 5/47;
+        grid-row: 1/30;
+    }
+    .container_article_archive .pink_card{
+        grid-column: 5/9;
+        grid-row: 47/51;
+        z-index:6;
+    }
+    .container_gallery_archive{
+    display: grid;
+    margin: 4rem auto;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50, 1fr);
+    max-width: 600px;
+    max-height: 550px;
+    }
+    .container_gallery_archive .text_card{
+        grid-column: 5/47;
+        grid-row: 23/51;
+        background-color: #0f8b8d;
+        color:white;
+    }
+    .container_gallery_archive .tags{
+        color:white;
+    }
+    .container_gallery_archive .button_article{
+        background-color:#f47878;
+    }
+    .container_gallery_archive .text_card_p{
+        height: 56px;
+    }
+    .container_gallery_archive .pic_card_container{
+        grid-column: 5/47;
+        grid-row: 16/23;
+    }
+    .container_gallery_archive .green_card{
+        grid-column: 5/47;
+        grid-row: 8/16;
+    }
+    .container_gallery_archive .pink_card{
+        grid-column: 5/47;
+        grid-row: 1/8;
+    }
+    .archive_page_container{
+        display:grid; 
+        grid-template-columns: 1fr; 
+        max-width: 1600px; 
+        margin: auto}
+
+    .archivio_h2{
+        font-family: 'taman-signature', cursive;
+        font-size: 8rem;
+        color: #123C4C;
+        text-align:center;
+        padding-top: calc(68.59px + 3rem);
+    }
+
+    @media(min-width:700px){
+        .archive_page_container{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media(min-width:1000px){
+        .archive_page_container{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }

@@ -1,6 +1,6 @@
 var is_home=false;
 var is_404=false
-$(function(){ 
+$(function(){
   AOS.init();
 
     // Navigation menu 
@@ -38,6 +38,7 @@ $(function(){
     if (is_404){
       $(".topbar").css("background-color","rgba(0,0,0,0)");
       $(".menu").css("background-color","rgba(255,255,255,1)");
+      $("input").css("background-color","rgba(255,255,255,1)");
     }
     
 
@@ -114,7 +115,7 @@ $(function(){
         arrow_check()
       }
     })
-
+    
     var element = $('.gallery_page_gallery');
     var gallery = new Hammer(element[0]);
     
@@ -142,6 +143,5 @@ $(function(){
       }
     });
     
-
   });
   

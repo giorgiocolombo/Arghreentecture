@@ -14,7 +14,7 @@
     </div>
 
     <section class="payoff">
-        <h1 data-aos="fade-up" data-aos-duration="600">Prospettive green a Milano</h1>
+        <h1>Prospettive green a Milano</h1>
     </section>
     <section class="article_section">   
         <div id="article">
@@ -55,8 +55,8 @@
                 <div class="pink_card"></div>
             </div>
     </section>
-    <section id="gallery" data-aos="fade-up" data-aos-duration="600">
-        <div class="gallery_posts">
+    <section id="gallery">
+        <div class="gallery_posts" data-aos="fade-up" data-aos-duration="600">
             <a href="gallery.php" class="gallery_item gallery_item_1">
                 <div class="gallery_cover"></div>
                 <p class="figcaption">Nome Gallery 1</p>
@@ -168,7 +168,7 @@
             </div>
     </section>
     <div class="link_to_archive_div">
-        <a href="archive.php" class="link_to_archive">Vai all'archivio</a>
+        <a href="archive.php" class="link_to_archive" data-aos="zoom-in" data-aos-duration="150" data-aos-delay="100">Vai all'archivio</a>
     </div>
     <script>
         is_home=true;
