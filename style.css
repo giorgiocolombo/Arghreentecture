@@ -14,7 +14,7 @@ a{
     z-index: 99;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1rem;
     transition: all 0.1s;
 }
 .topbarbgc{
@@ -125,7 +125,7 @@ a{
     position: absolute;
     width: 100vw;
     height: 64.59px;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2rem 0.8rem 1rem;
     top: -70px;
     right: 0;
     transition: all 0.3s, width cubic-bezier(0.77, 0, 0.175, 1) 0.6s, all cubic-bezier(0.77, 0, 0.175, 1) 0.3s;
@@ -137,16 +137,16 @@ a{
 }
 
 .search_form{
-    width: calc(100% - 3rem);
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 1.5rem;
 }
 
 .search_form input{
     height: 90%;
-    width: 400px;
     max-width: 100%;
     border-radius: 2px;
     padding: 0.5rem;
@@ -636,7 +636,7 @@ body {
 /* Gallery page */
 
 .gallery_page_container{
-    padding-top: calc(68.59px);
+    padding-top: 64.59px;
     width: 100%;
     display: grid;
     background-color: #050D12;
@@ -749,10 +749,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background: url(img/404_desktop.jpg); 
+    background-size: cover;
+    background-position: center;
 }
 .quattrozeroquattro h2{
     color: white;
-    font-size: 14rem;    
+    font-size: 10rem;    
     font-family: 'Prata', sans-serif;
     width: 100%;
     font-weight: 800;
@@ -760,7 +763,7 @@ body {
 }
 .quattrozeroquattro p{
     color: white;
-    font-size: 3rem;    
+    font-size: 2rem;    
     font-family: 'Prata', sans-serif;
     text-align: center;
 }
@@ -775,7 +778,7 @@ body {
     background-color: #f47878;
     color: #fff;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -860,10 +863,10 @@ body {
 
     .archivio_h2{
         font-family: 'taman-signature', cursive;
-        font-size: 8rem;
+        font-size: 6rem;
         color: #123C4C;
         text-align:center;
-        padding-top: calc(68.59px + 4rem);
+        padding-top: calc(64.59px + 4rem);
     }
 
 
@@ -883,6 +886,14 @@ body {
     @media (min-width:1000px){
         .menu a{
             padding: 3rem;
+        }
+    }
+    @media (min-width:700px){
+        .topbar{     
+            padding: 0.8rem 3rem;
+        }
+        .search_form_container{
+            padding: 0.8rem 4rem 0.8rem 1rem;
         }
     }
 
