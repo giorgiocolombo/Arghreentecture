@@ -643,7 +643,7 @@ body {
 }
 .quattrozeroquattro h2{
     color: white;
-    font-size: 14rem;    
+    font-size: 10rem;    
     font-family: 'Prata', sans-serif;
     width: 100%;
     font-weight: 800;
@@ -651,7 +651,7 @@ body {
 }
 .quattrozeroquattro p{
     color: white;
-    font-size: 3rem;    
+    font-size: 2rem;    
     font-family: 'Prata', sans-serif;
     text-align: center;
 }
@@ -666,7 +666,7 @@ body {
     background-color: #f47878;
     color: #fff;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
