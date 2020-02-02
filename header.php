@@ -15,13 +15,6 @@
     <link rel="stylesheet" href="aos.css">
     <script src="aos.js"></script>
     
-    
-    <style>
-        @font-face {
-          font-family: taman-signature;
-          src: url(taman.ttf);
-        }
-    </style>
 </head>
 <body>
     <header class="topbar">
