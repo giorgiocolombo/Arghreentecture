@@ -8,8 +8,8 @@
                 </div>
                 <p class="sostenibili">SOSTENIBILI</p>
             </div>
-            <img data-aos="fade-left" data-aos-duration="300" data-aos-anchor-placement="top-center" data-aos-offset="-500" src="img/bosco.png" alt="Bosco verticale" id="bosco2">
-            <img data-aos="fade-left" data-aos-duration="300" data-aos-anchor-placement="top-center" data-aos-offset="-500" src="img/bosco.png" alt="Bosco verticale" id="bosco1">
+            <img data-aos="fade-left" data-aos-duration="300" data-aos-anchor-placement="top-center" data-aos-offset="-500" src="img/bosco.jpg" alt="Bosco verticale" id="bosco2">
+            <img data-aos="fade-left" data-aos-duration="300" data-aos-anchor-placement="top-center" data-aos-offset="-500" src="img/bosco.jpg" alt="Bosco verticale" id="bosco1">
         </div>
     </div>
 
