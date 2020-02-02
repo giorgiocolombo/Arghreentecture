@@ -1093,3 +1093,60 @@ body {
             grid-template-columns: 1fr 1fr 1fr;
         }
     }
+
+/* CSS SINGLE ARTICLE */
+
+#single .banner {
+    background-image: url(img/sample_greenpark.jpg);
+    height: 400px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 180%;
+}
+
+#single .date-n-author {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#single .date-n-author p {
+    padding: 0.8rem 2rem;
+    font-size: 16px;
+}
+
+#single .date-n-author p span {
+    color: #095959;
+}
+
+#single h1 {
+    font-family: 'Prata', Georgia, 'Times New Roman', Times, serif;
+    padding: 0.7rem 2rem;
+    font-size: 35px;
+}
+
+#single .article-text p{
+    padding: 0.4rem 2rem;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#single .article-text p span {
+    font-weight: 500;
+}
+
+#single .line-divider {
+    height: 4px;
+    background-color: #81BBC6;
+    width: 144px;
+    margin: 0 2rem 1rem 2rem;
+}
+
+#single .article-text {
+    margin-bottom: 65px;
+}
+
+
