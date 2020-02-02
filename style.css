@@ -481,7 +481,7 @@ body {
 /* Gallery page */
 
 .gallery_page_container{
-    padding-top: calc(68.59px);
+    padding-top: calc(64.59px);
     width: 100%;
     display: grid;
     background-color: #050D12;
@@ -754,7 +754,7 @@ body {
         font-size: 8rem;
         color: #123C4C;
         text-align:center;
-        padding-top: calc(68.59px + 4rem);
+        padding-top: calc(64.59px + 4rem);
     }
 
     @media(min-width:700px){
