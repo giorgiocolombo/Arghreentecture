@@ -8,8 +8,13 @@
     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <h1>Il nuovo
         Parco Monsanto:
+=======
+    <h1>Il nuovo <br>
+        Parco Monsanto: <br>
+>>>>>>> parent of 13bfb93... some fixes and article animations
 =======
     <h1>Il nuovo <br>
         Parco Monsanto: <br>
