@@ -12,7 +12,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -53,7 +53,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -70,7 +70,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -88,7 +88,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -128,7 +128,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -146,7 +146,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
@@ -164,7 +164,7 @@
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
                     <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">

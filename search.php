@@ -1,5 +1,5 @@
 <?php include "header.php"?>
-<h2 class="archivio_h2">Risultati della ricerca</h2>
+<h2 class="archivio_h2">Risultati</h2>
 
 <div class="archive_page_container">
 
