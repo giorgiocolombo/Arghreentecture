@@ -7,13 +7,8 @@
         <p>di <span>Giuseppe Figliuolo</span></p>
     </div>
 
-<<<<<<< HEAD
     <h1>Il nuovo
         Parco Monsanto:
-=======
-    <h1>Il nuovo <br>
-        Parco Monsanto: <br>
->>>>>>> parent of 13bfb93... some fixes and article animations
         120 ettari di biodiversità</h1>
 
     <div class="line-divider"></div>
