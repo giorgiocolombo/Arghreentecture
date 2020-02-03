@@ -4,11 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-@font-face {
-    font-family: taman-signature;
-    src: url(Taman\ Signature.ttf);
-  }
-
 .link_to_archive_div {
     display: flex;
     justify-content: center;
@@ -98,10 +93,6 @@ body {
         transform: rotate(-90deg) scale(0.7)  !important;
         margin-bottom: 2rem;
     }
-    #bosco1{
-        margin-bottom: -120px;
-        margin-left: -30px;
-    }
 }
 
 /* Horizontal media queries for home header */
@@ -144,9 +135,10 @@ body {
     justify-content: center;
 }
 .payoff h1{
-    font-family: 'taman-signature', cursive;
-    font-size: 4rem;
+    font-family: 'Prata', serif;
+    font-size: 1.5rem;
     color: #123C4C;
+    
 }
 
 
@@ -456,9 +448,10 @@ body {
         display: block;
     }
     .payoff h1{
-        font-family: 'taman-signature', cursive;
-        font-size: 7rem;
-        font-weight: bold;
+        font-family: 'Prata', serif;
+        font-size: 3rem;
+        font-weight: 100;
+        padding: 2rem;
     }
 }
 
@@ -750,8 +743,8 @@ body {
         margin: auto}
 
     .archivio_h2{
-        font-family: 'taman-signature', cursive;
-        font-size: 8rem;
+        font-family: 'Prata', serif;
+        font-size: 3rem;
         color: #123C4C;
         text-align:center;
         padding-top: calc(64.59px + 4rem);
