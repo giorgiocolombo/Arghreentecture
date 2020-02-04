@@ -857,6 +857,8 @@ body {
     #single .article-text p {
         padding: 0.4rem 0;
         margin-left: 10px;
+        font-size: 19px;
+        line-height: 30px;
     }
 
     #single .article-side-container {
