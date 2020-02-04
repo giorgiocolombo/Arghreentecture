@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <link rel="stylesheet" href="footer.css">
-</head>
-<body>
+
     <footer>
     <!-- <img src="img/full_logo.svg" alt="logo Spazi Sostenibili"> -->
         <ul>
