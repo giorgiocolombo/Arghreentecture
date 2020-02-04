@@ -1,10 +1,10 @@
 <?php include "header.php"?>
-    <h2 class="archivio_h2">About us</h2>
-    <div class="cit">
-        <p class="italic">“La grande arte riprende da dove finisce la natura”.</p>
+    <h2 class="archivio_h2" data-aos="fade-down" data-aos-duration="300" data-aos-delay="600">About us</h2>
+    <div class="cit" data-aos="zoom-in" data-aos-duration="600">
+        <p class="italic" >“La grande arte riprende da dove finisce la natura”</p>
         <p>Marc Chagall</p>
     </div>
-    <div class="about">
+    <div class="about" data-aos="fade-up" data-aos-duration="300" data-aos-delay="600">
         <div class="testo">
             <p>
                 Il nostro grande sogno, un domani,  è quello di affacciarci dalla terrazza del Duomo e far fatica a distinguere lo spazio urbano da quello naturale. Una Milano in simbiosi con la natura, ricca di biodiversità e inghiottita interamente da una vegetazione rigogliosa.
