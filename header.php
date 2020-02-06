@@ -14,6 +14,7 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="aos.css">
     <script src="aos.js"></script>
+    <script src="imagesloaded.js"></script>
     
     
     <style>

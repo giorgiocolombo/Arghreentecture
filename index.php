@@ -1,4 +1,5 @@
     <?php include "header.php"?>
+    <div class="preloader"> <img src="img/logo.svg" alt=""> </div>
     <div class="container_home">
         <div class="header_home">
             <div class="container_text_header" data-aos="fade-right" data-aos-duration="600">

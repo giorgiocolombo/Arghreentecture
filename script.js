@@ -1,7 +1,15 @@
 var is_home=false;
-var is_404=false
+var is_404=false;
 $(function(){
   AOS.init();
+
+    // Preloader
+    
+    $(document).ready(function() {
+      $('#bosco2').imagesLoaded(function() {
+        $('.preloader').fadeOut("slow");
+      });
+    });
 
     // Navigation menu 
 
@@ -145,4 +153,5 @@ $(function(){
     });
     
   });
+  
   
