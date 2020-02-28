@@ -137,16 +137,16 @@
             <div class="container_article ca_5" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
-                        <p>Autore</p>
+                        <p>di <a href="about.php">Giuseppe Figliuolo</a></p>
                     </div>
-                    <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <h2>E2 Forum Milano: un appuntamento che evolve facendo rete</h2>
+                    <p class="text_card_p">La terza edizione di E2 Forum Milano, evento biennale per la mobilità verticale e orizzontale negli edifici e nelle città, mette le basi per un progetto di networking ancor più efficace per il settore. L’appuntamento 2020 potrà infatti beneficiare della collaborazione di ANIE AssoAscensori, che, fin...</p>
                     <div class="interaction">
                         <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                    <img class="pic_card" src="img-samples/citylife.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
@@ -154,16 +154,16 @@
             <div class="container_article ca_6" data-aos="fade-up" data-aos-duration="600">
                 <div class="text_card">
                     <div class="tags">
-                        <p>Autore</p>
+                        <p>di <a href="about.php">Giorgio Colombo</a></p>
                     </div>
-                    <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <h2>La Milano verde secondo il “progettista urbano” Giuseppe Marinoni</h2>
+                    <p class="text_card_p">Giuseppe Marinoni, architetto e progettista urbano, ha pubblicato Milano la verde, il libro dove analizza le pratiche che hanno contribuito all’evoluzione della forma urbana...</p>
                     <div class="interaction">
                         <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                    <img class="pic_card" src="img-samples/ragazza-singapore.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>

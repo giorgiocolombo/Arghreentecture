@@ -1,6 +1,11 @@
 
-    <footer>
-    <!-- <img src="img/full_logo.svg" alt="logo Spazi Sostenibili"> -->
+      <footer>
+    <img src="img/full_logo.svg" alt="logo Spazi Sostenibili">
+        <div class="nav-menu">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Team</a></p>
+            <p><a href="#">Archivio</a></p>
+        </div>
         <ul>
             <li><a href="#"><img src="img/instagram-logo.svg" alt="Spazi Sostenibili Instagram"></a></li>
             <li><a href="#"><img src="img/facebook-logo.svg" alt="Spazi Sostenibili Facebook"></a></li>

@@ -494,10 +494,16 @@ body {
     height: 44%;
     line-height: 1.4;
 }
-.container_article .ca_4 .text_card_p{
-    
+
+.ca_4 .text_card_p{
     height: 34%;
 }
+
+.ca_6 .text_card_p{
+    height: 31%;
+}
+
+
 
 .pic_card_container{
     left: -100px;
@@ -1117,6 +1123,11 @@ body {
     margin: 0 2rem 1rem 7%;
 }
 
+#single .article-side-container li a img {
+    width: 85%;
+    height: auto;
+}
+
 #single .article-text {
     margin-bottom: 65px;
 }
@@ -1161,9 +1172,10 @@ body {
 
     #single .article-text p {
         padding: 0.4rem 0;
+        padding-bottom: 20px;
         margin-left: 10px;
         font-size: 19px;
-        line-height: 30px;
+        line-height: 32px;
     }
 
     #single .article-side-container {
