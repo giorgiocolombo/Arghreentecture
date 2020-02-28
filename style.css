@@ -1,3 +1,11 @@
+@font-face {
+    src: url(fonts/MarilliaVionScript.ttf);
+    font-family: marilliaScript;}
+
+@font-face{
+    src: url(fonts/Marillia\ Vion\ Serif.ttf);
+    font-family: marilliaSerif;
+}
 /* Header */
 *{
     margin: 0;
@@ -289,7 +297,7 @@ body {
 }
 .container_text_header{    
     transform: rotate(-90deg) !important;
-    font-size: 5em;
+    font-size: 5.8em;
     width: 50%;
     z-index: 9;
     margin-bottom: 6rem;
@@ -311,10 +319,10 @@ body {
 .box_text_header{
     height: 80px;
     width: 180px;
-    background-color:#f47878;
+    background-color: #F56476;
     position: absolute;
-    bottom: 0;
-    left: 65px;
+    bottom: 9px;
+    left: 26px;
     z-index: 0;
 }
 #bosco1 {
@@ -349,7 +357,7 @@ body {
     .container_text_header {
         transform: rotate(0deg) !important;
         transform-origin: right;
-        margin-bottom: 40vh;
+        margin-bottom: 23vh;
         margin-left: 3.5rem;
     }
     .header_home img {
@@ -372,6 +380,7 @@ body {
 /* Payoff */
 
 .payoff{
+    display: block;
     padding: 3rem 0 0 0;
     text-align: center;
     display: flex;
@@ -382,7 +391,41 @@ body {
     font-family: 'Prata', serif;
     font-size: 1.5rem;
     color: #123C4C;
+}
+
+.payoffDesktop {
+    display: none;
+}
+
+@media(min-width:700px){
+    .payoff{
+        display: none;
+    }
     
+    .container_text_header{    
+        font-size: 5.8em;
+    }
+
+    .sostenibili{
+        color: black;
+    }
+
+    .spazi p {
+        color: white;
+    }
+    
+
+    .payoffDesktop {
+        display: block;
+        font-size: 6.7rem;
+        color: white;
+        font-family: marilliaScript;
+        margin-top: -38px;
+        z-index: 10;
+        position: relative;
+        line-height: 83px;
+    }
+
 }
 
 
@@ -419,12 +462,13 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-color: white;
 }
 .text_card{
     background-color: #fff;
     position: relative;
     grid-column: 15/51;
-    grid-row: 13/51;
+    grid-row: 13/48;
     z-index: 4;
     padding: 2rem;
     font-family: 'Montserrat', sans-serif;
@@ -437,13 +481,24 @@ body {
 }
 .text_card *{
     margin: 0.5rem 0;
+    line-height: 1.4;
 }
+
+.text_card .tags a {
+    text-decoration: none;
+}
+
 .text_card_p{
     margin: 1rem auto;
     overflow: hidden;
-    height: 39%;
-    line-height: 1.2;
+    height: 44%;
+    line-height: 1.4;
 }
+.container_article .text_card_p{
+    
+    height: 34%;
+}
+
 .pic_card_container{
     left: -100px;
     top: -100px;
@@ -457,7 +512,6 @@ body {
 }
 .tags{
     display: flex;
-    color: #0b5454;
     font-size: 0.9rem;
     margin: 0;
 }
@@ -584,6 +638,7 @@ body {
     #article{
         grid-template-columns: 1fr 1fr;
         max-width: 1600px;
+        margin-top: 94px;
     }
     .ca_1, .ca_2, .ca_3, .ca_4, .ca_5, .ca_6{
         margin: auto;
@@ -661,7 +716,7 @@ body {
     position: absolute;
     bottom:10%;
     right:5%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: right;
     text-transform: uppercase;
     font-family: 'Prata', serif;
