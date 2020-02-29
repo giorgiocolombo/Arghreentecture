@@ -504,7 +504,6 @@ body {
 }
 
 
-
 .pic_card_container{
     left: -100px;
     top: -100px;
@@ -512,7 +511,7 @@ body {
     grid-column: 6/35;
     grid-row: 6/43;
     z-index: 3;
-    background-color: blue;
+    background-color: white;
     padding: 0;
     margin: 0;
 }
@@ -543,7 +542,7 @@ body {
     grid-row: 11/45;   
 }
 .ca_4 .pic_card_container{
-    grid-column: 13/47;
+    grid-column: 14/49;
     grid-row: 5/40;
 }
 .ca_4 .green_card{
@@ -552,10 +551,10 @@ body {
 }
 .ca_4 .pink_card{
     grid-column: 1/15;
-    grid-row: 10/35;
+    grid-row: 8/34;
 }
 .ca_3 .text_card{
-    grid-column: 10/45;
+    grid-column: 13/50;
     grid-row: 13/51;
     
 }
@@ -564,28 +563,35 @@ body {
     grid-row: 7/40;
 }
 .ca_3 .pink_card{
-    grid-column: 35/51;
-    grid-row: 1/20;     
+    grid-column: 24/47;
+    grid-row: 6/10;
+    z-index: 3;
+    background-color: inherit;
+    overflow: hidden;
 }
+
 .ca_3 .green_card{
     grid-column: 7/33;
     grid-row: 4/20;;
 }
 .ca_2 .text_card{
     grid-column: 1/38;
-    grid-row: 16/50;
+    grid-row: 16/51;
 }
 .ca_2 .pic_card_container{
     grid-column: 18/51;
-    grid-row: 10/43;
+    grid-row: 5/39;
 }
 .ca_2 .pink_card{
     grid-column: 30/40;
-    grid-row: 7/20;        
+    grid-row: 3/16;
+    overflow: hidden;        
 }
 .ca_2 .green_card{
     grid-column: 7/33;
-    grid-row: 1/20;;
+    grid-row: 1/20;
+    background-color: white;
+    border: 24px solid #0f8b8d;
 }
 .ca_5 .text_card{
     grid-column: 1/35;
@@ -600,8 +606,11 @@ body {
     grid-row: 10/46;     
 }
 .ca_5 .green_card{
-    grid-column: 7/33;
-    grid-row: 4/20;;
+    grid-column: 7/30;
+    grid-row: 5/20;
+    border: 37px solid #0f8b8d;
+    background-color: inherit;
+    z-index: 2;
 }
 .ca_6 .text_card{
     grid-column: 20/51;
