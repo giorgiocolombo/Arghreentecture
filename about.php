@@ -19,12 +19,12 @@
         <div class="profile_pics">
             <div class="profile_pics_single">
                 <div class="profile_pic_cover"></div>
-                <img src="img-samples/photo-1579160855213-a6e60979eecf.jpg" alt="Giorgio">
+                <img src="img-samples/giorgio.jpg" alt="Giorgio">
                 <p class="name">Giorgio Colombo</p>
             </div>
             <div class="profile_pics_single">
                 <div class="profile_pic_cover"></div>
-                <img src="img-samples/photo-1579189880841-43ddba8d8efd.jpg" alt="Giuseppe">
+                <img src="img-samples/figliuolo.jpg" alt="Giuseppe">
                 <p class="name">Giuseppe Figliuolo</p>
             </div>
         </div>

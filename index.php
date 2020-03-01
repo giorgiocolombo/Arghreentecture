@@ -118,34 +118,7 @@
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card">
-                    <!-- SVG zigrinato salmone INIZIO -->
-                    <svg width="312" height="228" viewBox="0 0 312 228" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M-333.091 255.022L311.054 -215.703" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-311.808 270.575L332.342 -200.15" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-290.519 286.132L353.631 -184.593" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-269.23 301.69L374.915 -169.035" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-247.946 317.243L396.204 -153.482" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-226.658 332.8L417.492 -137.925" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-205.369 348.357L438.781 -122.368" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-184.085 363.911L460.065 -106.81" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-162.796 379.468L481.354 -91.257" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-77.5195 348.315L566.63 -122.41" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-120.224 410.579L523.926 -60.1426" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-98.9352 426.136L545.215 -44.5892" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-77.6464 441.693L566.504 -29.032" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-56.3576 457.25L587.787 -13.4748" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        <path d="M-35.074 472.804L609.076 2.0786" stroke="#F47878" stroke-width="14" stroke-miterlimit="10"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0">
-                        <rect width="312" height="228" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                        
-                    <!-- SVG zigrinato salmone FINE --> 
+                
 
                 </div>
             </div>
@@ -197,7 +170,9 @@
                 <div class="pic_card_container">
                     <img class="pic_card" src="img-samples/ragazza-singapore.jpg">
                 </div>
-                <div class="green_card"></div>
+                <div class="green_card">                        
+        
+                </div>
                 <div class="pink_card"></div>
             </div>
     </section>
