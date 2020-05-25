@@ -28,8 +28,7 @@
                     <h2>Gioia22 stravolge l'impatto ambientale</h2>
                     <p class="text_card_p">Si tratta dell’innovativa torre in costruzione che nasce all’interno del progetto
                         di riqualificazione di Porta Nuova e si impone come nuovo standard di
-                        ecosostenibilità a Milano. Il nuovo grattacielo sostituisce il vecchio edificio dell’INPS i cui lavori di demolizione
-                        sono iniziati nel settembre 2017...</p>
+                        ecosostenibilità a Milano.</p>
                     <div class="interaction">
                         <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
