@@ -3,19 +3,19 @@
 
 <div class="archive_page_container">
 
-        <div class="container_article_archive" data-aos="fade-up" data-aos-duration="300">
+<div class="container_article_archive" data-aos="fade-up" data-aos-duration="300">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
                     </div>
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579189880841-43ddba8d8efd.jpg">
+                    <img class="pic_card" src="img-samples/facciata-b-verticale.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
@@ -27,20 +27,20 @@
                     <div class="tags">
                         <p>Autore</p>
                     </div>
-                    <h2>Titolo gallery di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <h2>Galleria Residenze Hadid</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div class="interaction">
                         <a href="gallery.php" class="button_article">Guarda la gallery</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                    <img class="pic_card" src="img-samples/gall5.jpg">
                 </div>
                 <div class="green_card">
-                    <img class="pic_card" src="img-samples/photo-1579160855213-a6e60979eecf.jpg">
+                    <img class="pic_card" src="img-samples/gall2.jpg">
                 </div>
                 <div class="pink_card">
-                    <img class="pic_card" src="img-samples/photo-1579164618222-dfb28558a476.jpg">
+                    <img class="pic_card" src="img-samples/gall1.jpg">
                 </div>
             </div>
 
@@ -50,13 +50,13 @@
                         <p>Autore</p>
                     </div>
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579189880841-43ddba8d8efd.jpg">
+                    <img class="pic_card" src="img-samples/amber-building.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
@@ -68,19 +68,19 @@
 
 <div class="archive_page_container">
 
-        <div class="container_article_archive" data-aos="fade-up" data-aos-duration="300">
+<div class="container_article_archive" data-aos="fade-up" data-aos-duration="300">
                 <div class="text_card">
                     <div class="tags">
                         <p>Autore</p>
                     </div>
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579189880841-43ddba8d8efd.jpg">
+                    <img class="pic_card" src="img-samples/facciata-b-verticale.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
@@ -92,20 +92,20 @@
                     <div class="tags">
                         <p>Autore</p>
                     </div>
-                    <h2>Titolo gallery di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <h2>Galleria Residenze Hadid</h2>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div class="interaction">
                         <a href="gallery.php" class="button_article">Guarda la gallery</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579126999978-eac334843123.jpg">
+                    <img class="pic_card" src="img-samples/gall5.jpg">
                 </div>
                 <div class="green_card">
-                    <img class="pic_card" src="img-samples/photo-1579160855213-a6e60979eecf.jpg">
+                    <img class="pic_card" src="img-samples/gall2.jpg">
                 </div>
                 <div class="pink_card">
-                    <img class="pic_card" src="img-samples/photo-1579164618222-dfb28558a476.jpg">
+                    <img class="pic_card" src="img-samples/gall1.jpg">
                 </div>
             </div>
 
@@ -115,13 +115,13 @@
                         <p>Autore</p>
                     </div>
                     <h2>Titolo articolo di Spazi Sostenibili</h2>
-                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex. Aperiam, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci quam fuga architecto soluta, velit quaerat libero nostrum hic vero perspiciatis labore doloribus aut doloremque quod, vitae dolore saepe aliquid.</p>
+                    <p class="text_card_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi expedita quod aut, nihil iste, hic quidem laborum nesciunt nemo nisi totam omnis, animi aspernatur dolorem ex.</p>
                     <div class="interaction">
-                        <a href="articolo.php" class="button_article">Continua a leggere</a>
+                        <a href="article.php" class="button_article">Continua a leggere</a>
                     </div>
                 </div>
                 <div class="pic_card_container">
-                    <img class="pic_card" src="img-samples/photo-1579189880841-43ddba8d8efd.jpg">
+                    <img class="pic_card" src="img-samples/amber-building.jpg">
                 </div>
                 <div class="green_card"></div>
                 <div class="pink_card"></div>
